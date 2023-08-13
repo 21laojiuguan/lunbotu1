@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#common{
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: none;
+}
+ul li:first-child{
+    display: block;
+}
+.leftbtn{
+    position: absolute;
+    background: url(./images/left1.png) no-repeat;
+    display: inline;
+    width: 32px;
+    height: 40px;
+    top: 40%;
+
+}
+.rightbtn{
+    position: absolute;
+    background: url(./images/right1.png) no-repeat;
+    display: inline-block;
+    width: 32px;
+    height: 40px;
+    top: 40%;
+    right: 0;
+}
+.nav{
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+}
+.nav span{
+    background: green;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.nav span:first-child{
+    background: red;
+}
